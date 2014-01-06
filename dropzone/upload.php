@@ -1,6 +1,6 @@
 <?php
  
-$upload_folder = 'uploads';
+$upload_folder = 'file-upload';
 if (!empty($_FILES)) {
   $temp_file = $_FILES['file']['tmp_name'];
   $target_path = dirname( __FILE__ ) .  '/' . $upload_folder . '/';
